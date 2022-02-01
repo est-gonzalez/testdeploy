@@ -1,5 +1,5 @@
 import {ref as dataRef, get, set, update} from 'firebase/database';
-import {db} from './libs/firebase/firebaseConfig';
+import {db} from './libs/firebase/firebaseConfig.js';
 import {rentalCard} from './templates/rentalCard'
 
 async function pageInit(){
