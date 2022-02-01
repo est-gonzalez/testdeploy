@@ -1,6 +1,6 @@
 import { ref as storageRef, uploadBytes, getDownloadURL } from "firebase/storage";
 import {ref as databaseRef, push, set, get, remove} from 'firebase/database'
-import { db, storage  } from "./libs/firebase/firebaseConfig.js";
+import { db, storage  } from "./libs/firebase/firebaseConfig";
 
 document.querySelector("#rentalImage").addEventListener("change", onImageSelected);
 document.forms["rentalForm"].addEventListener("submit", onAddRental); 

@@ -20,5 +20,13 @@
     "@parcel/packager-raw-url": "^2.2.1",
     "@parcel/transformer-webmanifest": "^2.2.1"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/est-gonzalez/testdeploy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/est-gonzalez/testdeploy/issues"
+  },
+  "homepage": "https://github.com/est-gonzalez/testdeploy#readme"
 }
